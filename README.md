@@ -157,7 +157,7 @@ Compile ustreamer the same way as above
 
 Install and link compiled ustreamer the same way as above.
 
-Then apply the same changes to /etc/kvmd/override.yaml as described in RPi4 above.
+Then apply the same changes to /etc/kvmd/override.yaml as described in PiKVM V4 above.
 
 ## Reverting Back To Stock
 
