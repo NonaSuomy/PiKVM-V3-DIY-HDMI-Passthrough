@@ -9,7 +9,7 @@ If you don't have pikvm-update in your software use the documentation here: http
 
 ## PiKVM V3:
 
-**Note:** _On the PiKVM V3 HDMI1 is blocked by the fan in the case. You **MUST** recompile to use HDMI0_
+**Note:** _On the PiKVM V3 HDMI1 is blocked by the fan in the case. You **MUST** recompile to use HDMI0._
 
 ### HDMI0 Port Passthrough
 
