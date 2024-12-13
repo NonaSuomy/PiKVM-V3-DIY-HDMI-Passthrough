@@ -93,14 +93,14 @@ systemctl restart kvmd
 **Result:** _After restarting kvmd service, HDMI passthrough is enabled from HDMI0 port_
 
 
-### Root Read Only Mode and exit
+### Root Read Only Mode and Exit
 
 ```
 $ ro
 $ exit
 ```
 
-### Update Ustreamer In the future
+### Update Ustreamer In The Future
 
 Same process but all you need to do is go to rw mode and then go to the /root/code/ustreamer directory
 
@@ -129,6 +129,12 @@ kvmd:
             - "--format=rgb24"
             - "--encoder=cpu"
             - "--v4p"
+```
+
+### Restart kvmd Sevice
+ 
+```
+systemctl restart kvmd
 ```
 
 **Result:** _After restarting kvmd service, HDMI passthrough is enabled from HDMI1 port (the 2nd micro HDMI port counting from the USB power port)_
@@ -172,7 +178,7 @@ ro
 ## Troubleshooting
 
 ### No Signal
-Use the same resolution on the HOST machine that you want on the output monitor. ie Old 720P max res monitor set the desktop resolution to 720P as well.
+Use the same resolution on the HOST machine that you want on the output monitor. Old 720P max res monitor set the desktop resolution to 720P as well etc.
 
 ### Fixing EDID for 1080P30Hz
 
