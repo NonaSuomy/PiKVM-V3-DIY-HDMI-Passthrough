@@ -172,7 +172,7 @@ $ rm /usr/bin/ustreamer
 $ rm /usr/bin/ustreamer-dump
 ```
 
-### Reinstall OEM Ustreamer
+### Reinstall Distrobution Version Of Ustreamer
 ```
 pacman -S ustreamer
 ro
