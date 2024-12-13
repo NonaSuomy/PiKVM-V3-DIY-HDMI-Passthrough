@@ -44,7 +44,7 @@ Line [84](https://github.com/pikvm/ustreamer/blob/c848756d53626d2ba462a698777c6f
 to 
 ```
 	drm->path = "/dev/dri/by-path/platform-gpu-card";
-	drm->port = "HDMI-A-1"; // OUT2 on PiKVM V4 Plus
+	drm->port = "HDMI-A-1"; // HDMI0 on PiKVM V3
 	drm->timeout = 5;
 ```
 
