@@ -32,7 +32,7 @@ $ cd code
 $ git clone --depth=1 https://github.com/pikvm/ustreamer
 ```
 
-edit ustreamer/src/libs/drm/drm.c
+Edit ustreamer/src/libs/drm/drm.c
 
 Line [84](https://github.com/pikvm/ustreamer/blob/c848756d53626d2ba462a698777c6f4e32bf100c/src/libs/drm/drm.c#L84), replace HDMI-A-2 with HDMI-A-1
 
