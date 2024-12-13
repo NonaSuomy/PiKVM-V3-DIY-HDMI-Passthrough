@@ -188,3 +188,5 @@ Old 720P max res monitor set the desktop resolution to 720P as well etc.
 ### Fixing EDID for 1080P30Hz
 
 Pending...
+
+https://docs.pikvm.org/edid/
