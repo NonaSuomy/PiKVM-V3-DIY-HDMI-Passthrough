@@ -178,7 +178,9 @@ ro
 ## Troubleshooting
 
 ### No Signal
-Use the same resolution on the HOST machine that you want on the output monitor. Old 720P max res monitor set the desktop resolution to 720P as well etc.
+Use the same resolution on the HOST machine that you want on the output monitor.
+
+Old 720P max res monitor set the desktop resolution to 720P as well etc.
 
 ### Fixing EDID for 1080P30Hz
 
