@@ -170,6 +170,22 @@ $ rm /usr/bin/ustreamer
 $ rm /usr/bin/ustreamer-dump
 ```
 
+### Remove HDMI Passthrough Configuration
+
+Comment out or remove HDMI Passthrough config in /etc/kvmd/override.yaml
+
+```
+# kvmd:
+#    streamer:
+#        forever: true
+#        cmd_append:
+#            - "--format-swap-rgb"
+#            - "--buffers=8"
+#            - "--format=rgb24"
+#            - "--encoder=cpu"
+#            - "--v4p"
+```
+
 ### Reinstall Distribution Version Of Ustreamer
 ```
 pacman -S ustreamer
