@@ -84,8 +84,6 @@ kvmd:
 
 ### Restart kvmd Service
 
-Restart kvmd service
-
 ```
 systemctl restart kvmd
 ```
