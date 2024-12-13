@@ -143,12 +143,15 @@ systemctl restart kvmd
 
 ### Baiscally Same As Above
 
+Extra line change on line 83.
+
 Pull ustreamer source from repo
 
 Edit ~/ustreamer/src/libs/drm/drm.c 
 
-line 83, replace platform-gpu-card with platform-soc:gpu-card
-line 84, replace HDMI-A-2 with HDMI-A-1
+line [83](https://github.com/pikvm/ustreamer/blob/c848756d53626d2ba462a698777c6f4e32bf100c/src/libs/drm/drm.c#L83), replace platform-gpu-card with platform-soc:gpu-card
+
+line [84](https://github.com/pikvm/ustreamer/blob/c848756d53626d2ba462a698777c6f4e32bf100c/src/libs/drm/drm.c#L84), replace HDMI-A-2 with HDMI-A-1
 
 Compile ustreamer the same way as above
 
