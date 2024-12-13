@@ -1,4 +1,4 @@
-# PiKVM-V3-HDMI-Passthrough
+# PiKVM-HDMI-Passthrough
 PiKVM HDMI passthrough on V3 or DIY platforms using CSI-HDMI bridge board (TC358743)
 
 Update your PiKVM software first! 
