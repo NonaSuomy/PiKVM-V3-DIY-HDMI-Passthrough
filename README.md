@@ -90,7 +90,7 @@ Restart kvmd service
 systemctl restart kvmd
 ```
 
-**Result:** _After restarting kvmd service, HDMI passthrough is enabled from HDMI0 port_
+**Result:** _After restarting kvmd service, HDMI passthrough is enabled from HDMI0 port._
 
 
 ### Root Read Only Mode and Exit
@@ -102,7 +102,7 @@ $ exit
 
 ### Update Ustreamer In The Future
 
-Same process but all you need to do is go to rw mode and then go to the /root/code/ustreamer directory
+Same process but all you need to do is go to rw mode and then go to the /root/code/ustreamer directory as follows.
 
 ```
 $ rw
@@ -137,7 +137,7 @@ kvmd:
 systemctl restart kvmd
 ```
 
-**Result:** _After restarting kvmd service, HDMI passthrough is enabled from HDMI1 port (the 2nd micro HDMI port counting from the USB power port)_
+**Result:** _After restarting kvmd service, HDMI passthrough is enabled from HDMI1 port (the 2nd micro HDMI port counting from the USB power port)._
 
 ## RPi3
 
@@ -145,7 +145,7 @@ systemctl restart kvmd
 
 Extra line change on line 83.
 
-Pull ustreamer source from repo
+Pull ustreamer source from repo.
 
 Edit ~/ustreamer/src/libs/drm/drm.c 
 
@@ -153,7 +153,7 @@ line [83](https://github.com/pikvm/ustreamer/blob/c848756d53626d2ba462a698777c6f
 
 line [84](https://github.com/pikvm/ustreamer/blob/c848756d53626d2ba462a698777c6f4e32bf100c/src/libs/drm/drm.c#L84), replace HDMI-A-2 with HDMI-A-1
 
-Compile ustreamer the same way as above
+Compile ustreamer the same way as above.
 
 Install and link compiled ustreamer the same way as above.
 
